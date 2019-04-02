@@ -1,0 +1,28 @@
+{
+  "name": "@ali/ui-component",
+  "version": "1.0.0",
+  "description": "React UI Component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/alisyahidin/ui-component.git"
+  },
+  "keywords": [
+    "UI",
+    "Component",
+    "React",
+    "React UI Component"
+  ],
+  "author": "Ali Syahidin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alisyahidin/ui-component/issues"
+  },
+  "homepage": "https://github.com/alisyahidin/ui-component#readme",
+  "dependencies": {
+    "styled-components": "^4.2.0"
+  }
+}
