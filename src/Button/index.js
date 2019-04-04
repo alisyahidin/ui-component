@@ -9,6 +9,7 @@ const Button = styled.button`
   border: 2px solid palevioletred;
   border-radius: 3px;
   display: block;
+  background: white;
 `
 
 export default Button
