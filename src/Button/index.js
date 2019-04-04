@@ -1,6 +1,6 @@
-import styled from 'styled-components'
+import { button } from 'styled-components'
 
-const Button = styled.button`
+const Button = button`
   display: inline-block;
   color: palevioletred;
   font-size: 1em;
