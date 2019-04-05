@@ -20,7 +20,7 @@
     "build-examples": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "build": "babel src/ --out-dir . --ignore __tests__,spec.js,test.js,__snapshots__ && rm -R node_modules",
+    "build": "babel src/ --out-dir . --ignore __tests__,spec.js,test.js,__snapshots__",
     "postinstall": "yarn build"
   },
   "dependencies": {
