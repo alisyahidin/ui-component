@@ -2,14 +2,12 @@
   "name": "@ali/ui-component",
   "version": "0.1.0",
   "main": "./dist/index.js",
-  "files": [
-    "dist"
-  ],
   "devDependencies": {
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
-    "react-scripts": "1.1.4",
-    "react-test-renderer": "^16.3.2"
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "styled-components": "^4.2.0"
   },
   "peerDependencies": {
     "react": "^16.3.2",
@@ -23,13 +21,5 @@
     "build": "babel src/ --out-dir ./dist --ignore __tests__,spec.js,test.js,__snapshots__",
     "postinstall": "yarn build"
   },
-  "dependencies": {
-    "@babel/cli": "^7.4.3",
-    "@babel/core": "^7.4.3",
-    "@babel/preset-env": "^7.4.3",
-    "@babel/preset-react": "^7.0.0"
-  },
-  "release": {
-    "publishDir": "dist"
-  }
+  "license": "MIT"
 }
