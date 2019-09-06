@@ -18,8 +18,7 @@
     "build-examples": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "build": "babel src/ --out-dir ./dist --ignore __tests__,spec.js,test.js,__snapshots__",
-    "postinstall": "yarn build"
+    "build": "babel src/ --out-dir ./dist --ignore __tests__,spec.js,test.js,__snapshots__"
   },
   "license": "MIT"
 }
