@@ -1,7 +1,7 @@
 {
   "name": "@ali/ui-component",
   "version": "0.1.0",
-  "main": "./dist/index.js",
+  "main": "./index.js",
   "devDependencies": {
     "@babel/cli": "^7.7.5",
     "@babel/core": "^7.7.5",
@@ -19,7 +19,9 @@
   },
   "scripts": {
     "test": "react-scripts test --env=jsdom",
-    "build": "babel src/ --out-dir ./dist --ignore __tests__,spec.js,test.js,__snapshots__",
+    "build:copy-files": "node ./scripts/copy-files.js",
+    "build:components": "babel src/ --out-dir ./dist --ignore __tests__,spec.js,test.js,__snapshots__",
+    "build": "npm run build:components && npm run build:copy-files",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
